@@ -1,0 +1,766 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body .menuprincipal {
+    background: #E6E5FF;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 144px;
+    width:100%;
+}
+
+body .menuprincipal .Logo {
+    padding: 16px 32px;
+    color: #214FA0;
+
+}
+
+body .menuprincipal .Logo h1 {
+    display: none;
+}
+
+body .menuprincipal .menuitems {
+    align-items: center;
+    display: flex;
+    border: 0;
+    border-radius: 5px;
+    color: #214FA0;
+    padding: 16px 32px;
+}
+
+body .menuprincipal .items {
+    display: flex;
+}
+
+body .menuprincipal .menuitems > img {
+    display: none;
+}
+
+body .menuprincipal .menuitems .items p {
+    padding: 8px 25px;
+    color: #214FA0;
+}
+
+body .menuitems .menuham {
+    display: none;
+}
+
+body .Galeria {
+    position: absolute;
+    width: 1519px;
+    height: 2000px;
+    left: 0px;
+    top: 175px;
+}
+
+body .Galeria .Fotos .Imagen1 {
+    display: flex;
+    position: absolute;
+    width: 570px;
+    height: 570px;
+    left: 40px;
+    top: 20px;
+}
+
+body .Galeria .Fotos .Imagen2 {
+    display: flex;
+    position: absolute;
+    width: 570px;
+    height: 570px;
+    left: 680px;
+    top: 20px;
+}
+
+body .Galeria .Fotos .Imagen3 {
+    display: flex;
+    position: absolute;
+    width: 570px;
+    height: 570px;
+    left: 1315px;
+    top: 20px;
+}
+
+body .Galeria .Fotos .Imagen4 {
+    display: flex;
+    position: absolute;
+    width: 570px;
+    height: 570px;
+    left: 40px;
+    top: 660px;
+}
+
+body .Galeria .Fotos .Imagen5 {
+    display: flex;
+    position: absolute;
+    width: 570px;
+    height: 570px;
+    left: 680px;
+    top: 660px;
+}
+
+body .Galeria .Fotos .Imagen6 {
+    display: flex;
+    position: absolute;
+    width: 570px;
+    height: 570px;
+    left: 1315px;
+    top: 660px;
+}
+
+body .Galeria .Fotos .Imagen7 {
+    display: flex;
+    position: absolute;
+    width: 570px;
+    height: 570px;
+    left: 40px;
+    top: 1300px;
+}
+
+body .Galeria .Fotos .Imagen8 {
+    display: flex;
+    position: absolute;
+    width: 570px;
+    height: 570px;
+    left: 680px;
+    top: 1300px;
+}
+
+body .Galeria .Fotos .Imagen9 {
+    display: flex;
+    position: absolute;
+    width: 570px;
+    height: 570px;
+    left: 1315px;
+    top: 1300px;
+}
+
+body .Galeria .Fotos .Imagen10 {
+    display: flex;
+    position: absolute;
+    width: 570px;
+    height: 570px;
+    left: 40px;
+    top: 1940px;
+}
+
+body .Galeria .Fotos .Imagen11 {
+    display: flex;
+    position: absolute;
+    width: 570px;
+    height: 570px;
+    left: 680px;
+    top: 1940px;
+}
+
+body .Galeria .Fotos .Imagen12 {
+    display: flex;
+    position: absolute;
+    width: 570px;
+    height: 570px;
+    left: 1315px;
+    top: 1940px;
+}
+
+body .barra {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 165px;
+    position: absolute;
+    width: 1920px;
+    height: 218px;
+    left: 0px;
+    top:2700px;
+    background: #E6E5FF;
+}
+
+body .barra .icono1 {
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 59px;
+    left:700px;
+}
+
+body .barra .icono2 {
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 59px;
+    left:920px;
+}
+
+body .barra .icono3 {
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 59px;
+    left:1120px;
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 1367px) {
+    body .menuprincipal {
+        padding: 21px 56px;
+        width: 1300px;
+    }   
+
+    body .menuprincipal .Logo h1 {
+        display: none;
+    }
+
+    body .menuitems .menuham {
+        display: none;
+    }
+    
+    body .Section1 .Imagen img {
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+        vertical-align: top;
+        width: 1300px;
+    }
+
+    body .Section1 .Titulo-subtitulo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:right;
+        left: 50%;  
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 1000px;
+        height: 113px;
+    }
+
+    body .Proyectos {
+        position: absolute;
+        width: 1366px;
+        height: 4660px;
+        left: 0px;
+        top: 768px;
+    }
+
+    body .Proyectos .sub h1 {
+        position: absolute;
+        width: 1366px;
+        top: 66px;
+        font-family: 'Merriweather Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        text-align: center;
+        color: #343434;
+    }
+    
+    body .Galeria {
+        position: absolute;
+        width: 1000px;
+        height: 2000px;
+        left: 0px;
+        top: 175px;
+    }
+    
+    body .Galeria .Fotos .Imagen1 {
+        display: flex;
+        position: absolute;
+        width: 370px;
+        height: 370px;
+        left: 40px;
+        top: 20px;
+    }
+    
+    body .Galeria .Fotos .Imagen2 {
+        display: flex;
+        position: absolute;
+        width: 370px;
+        height: 370px;
+        left: 455px;
+        top: 20px;
+    }
+    
+    body .Galeria .Fotos .Imagen3 {
+        display: flex;
+        position: absolute;
+        width: 370px;
+        height: 370px;
+        left: 870px;
+        top: 20px;
+    }
+    
+    body .Galeria .Fotos .Imagen4 {
+        display: flex;
+        position: absolute;
+        width: 370px;
+        height: 370px;
+        left: 40px;
+        top: 440px;
+    }
+    
+    body .Galeria .Fotos .Imagen5 {
+        display: flex;
+        position: absolute;
+        width: 370px;
+        height: 370px;
+        left: 455px;
+        top: 440px;
+    }
+    
+    body .Galeria .Fotos .Imagen6 {
+        display: flex;
+        position: absolute;
+        width: 370px;
+        height: 370px;
+        left: 870px;
+        top: 440px;
+    }
+    
+    body .Galeria .Fotos .Imagen7 {
+        display: flex;
+        position: absolute;
+        width: 370px;
+        height: 370px;
+        left: 40px;
+        top: 860px;
+    }
+    
+    body .Galeria .Fotos .Imagen8 {
+        display: flex;
+        position: absolute;
+        width: 370px;
+        height: 370px;
+        left: 455px;
+        top: 860px;
+    }
+    
+    body .Galeria .Fotos .Imagen9 {
+        display: flex;
+        position: absolute;
+        width: 370px;
+        height: 370px;
+        left: 870px;
+        top: 860px;
+    }
+    
+    body .Galeria .Fotos .Imagen10 {
+        display: flex;
+        position: absolute;
+        width: 370px;
+        height: 370px;
+        left: 40px;
+        top: 1280px;
+    }
+    
+    body .Galeria .Fotos .Imagen11 {
+        display: flex;
+        position: absolute;
+        width: 370px;
+        height: 370px;
+        left: 455px;
+        top: 1280px;
+    }
+    
+    body .Galeria .Fotos .Imagen12 {
+        display: flex;
+        position: absolute;
+        width: 370px;
+        height: 370px;
+        left: 870px;
+        top: 1280px;
+    }
+
+    body .barra {
+        position: absolute;
+        width: 1290px;
+        height: 218px;
+        left: 0px;
+        top: 1800px;
+    }
+
+    body .barra .icono1 {
+        display: flex;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 59px;
+        left:350px;
+    }
+    
+    body .barra .icono2 {
+        display: flex;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 59px;
+        left: 650px;
+    }
+    
+    body .barra .icono3 {
+        display: flex;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 59px;
+        left:950px;
+    }
+
+
+/* Media queries */
+
+@media only screen and (max-width: 831px) {
+    body .menuprincipal {
+        padding: 21px 56px;
+        width: 830px;
+    }
+
+    body .menuprincipal .Logo h1{
+        display: none;
+    }   
+
+    body .menuprincipal .menuitems .items {
+        display: none;
+    }
+
+    body .menuitems .menuham {
+        display: unset;
+        color: #214FA0;
+    }
+
+    body .Galeria {
+        position: absolute;
+        width: 830px;
+        height: 2000px;
+        left: 0px;
+        top: 175px;
+    }
+    
+    body .Galeria .Fotos .Imagen1 {
+        display: flex;
+        position: absolute;
+        width: 370px;
+        height: 370px;
+        left: 25px;
+        top: 20px;
+    }
+    
+    body .Galeria .Fotos .Imagen2 {
+        display: flex;
+        position: absolute;
+        width: 370px;
+        height: 370px;
+        left: 435px;
+        top: 20px;
+    }
+    
+    body .Galeria .Fotos .Imagen3 {
+        display: flex;
+        position: absolute;
+        width: 370px;
+        height: 370px;
+        left: 25px;
+        top: 440px;
+    }
+    
+    body .Galeria .Fotos .Imagen4 {
+        display: flex;
+        position: absolute;
+        width: 370px;
+        height: 370px;
+        left: 435px;
+        top: 440px;
+    }
+    
+    body .Galeria .Fotos .Imagen5 {
+        display: flex;
+        position: absolute;
+        width: 370px;
+        height: 370px;
+        left: 25px;
+        top: 860px;
+    }
+    
+    body .Galeria .Fotos .Imagen6 {
+        display: flex;
+        position: absolute;
+        width: 370px;
+        height: 370px;
+        left: 435px;
+        top: 860px;
+    }
+    
+    body .Galeria .Fotos .Imagen7 {
+        display: flex;
+        position: absolute;
+        width: 370px;
+        height: 370px;
+        left: 25px;
+        top: 1280px;
+    }
+    
+    body .Galeria .Fotos .Imagen8 {
+        display: flex;
+        position: absolute;
+        width: 370px;
+        height: 370px;
+        left: 435px;
+        top: 1280px;
+    }
+    
+    body .Galeria .Fotos .Imagen9 {
+        display: flex;
+        position: absolute;
+        width: 370px;
+        height: 370px;
+        left: 25px;
+        top: 1700px;
+    }
+    
+    body .Galeria .Fotos .Imagen10 {
+        display: flex;
+        position: absolute;
+        width: 370px;
+        height: 370px;
+        left: 435px;
+        top: 1700px;
+    }
+    
+    body .Galeria .Fotos .Imagen11 {
+        display: flex;
+        position: absolute;
+        width: 370px;
+        height: 370px;
+        left: 25px;
+        top: 2150px;
+    }
+    
+    body .Galeria .Fotos .Imagen12 {
+        display: flex;
+        position: absolute;
+        width: 370px;
+        height: 370px;
+        left: 435px;
+        top: 2150px;
+    }
+
+    body .barra {
+        position: absolute;
+        width: 830px;
+        height: 218px;
+        left: 0px;
+        top: 2700px;
+    }
+
+    body .barra .icono1 {
+        display: flex;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 59px;
+        left:150px;
+    }
+    
+    body .barra .icono2 {
+        display: flex;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 59px;
+        left: 350px;
+    }
+    
+    body .barra .icono3 {
+        display: flex;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 59px;
+        left:550px;
+    }
+
+}
+
+
+/* Media queries */
+
+@media only screen and (max-width: 361px) {
+    body .menuprincipal {
+        padding: 21px 56px;
+        width: 360px;
+    }
+
+    body .menuprincipal .Logo p{
+        display: none;   
+    }   
+
+    body .menuprincipal .Logo h1{
+        display: unset;
+        color: #214FA0;
+    }   
+
+    body .menuprincipal .menuitems .menuham {
+        color: #214FA0;
+    }
+    
+    body .Galeria {
+        position: absolute;
+        width: 360px;
+        height: 5000px;
+        left: 0px;
+        top: 175px;
+    }
+    
+    body .Galeria .Fotos .Imagen1 {
+        display: flex;
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        left: 25px;
+        top: 20px;
+    }
+    
+    body .Galeria .Fotos .Imagen2 {
+        display: flex;
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        left: 25px;
+        top: 440px;
+    }
+    
+    body .Galeria .Fotos .Imagen3 {
+        display: flex;
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        left: 25px;
+        top: 860px;
+    }
+    
+    body .Galeria .Fotos .Imagen4 {
+        display: flex;
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        left: 25px;
+        top: 1280px;
+    }
+    
+    body .Galeria .Fotos .Imagen5 {
+        display: flex;
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        left: 25px;
+        top: 1700px;
+    }
+    
+    body .Galeria .Fotos .Imagen6 {
+        display: flex;
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        left: 25px;
+        top: 2120px;
+    }
+    
+    body .Galeria .Fotos .Imagen7 {
+        display: flex;
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        left: 25px;
+        top: 2540px;
+    }
+    
+    body .Galeria .Fotos .Imagen8 {
+        display: flex;
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        left: 25px;
+        top: 2960px;
+    }
+    
+    body .Galeria .Fotos .Imagen9 {
+        display: flex;
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        left: 25px;
+        top: 3380px;
+    }
+    
+    body .Galeria .Fotos .Imagen10 {
+        display: flex;
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        left: 25px;
+        top: 3800px;
+    }
+    
+    body .Galeria .Fotos .Imagen11 {
+        display: flex;
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        left: 25px;
+        top: 4220px;
+    }
+    
+    body .Galeria .Fotos .Imagen12 {
+        display: flex;
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        left: 25px;
+        top: 4640px;
+    }
+
+    body .barra {
+        position: absolute;
+        width: 360px;
+        height: 118px;
+        left: 10px;
+        top: 5000px;
+    }
+
+    body .barra .icono1 {
+        display: flex;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top: 35px;
+        left: 70px;
+    }
+    
+    body .barra .icono2 {
+        display: flex;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top: 35px;
+        left: 155px;
+    }
+    
+    body .barra .icono3 {
+        display: flex;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top: 35px;
+        left: 240px;
+    }
+}
+}

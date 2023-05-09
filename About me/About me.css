@@ -1,0 +1,920 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body .menuprincipal {
+    background: #E6E5FF;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 144px;
+    width: 1920px;;
+}
+
+body .menuprincipal .Logo {
+    padding: 16px 32px;
+    color: #214FA0;
+
+}
+
+body .menuprincipal .Logo h1 {
+    display: none;
+}
+
+body .menuprincipal .menuitems {
+    align-items: center;
+    display: flex;
+    border: 0;
+    border-radius: 5px;
+    color: #214FA0;
+    padding: 16px 32px;
+}
+
+body .menuprincipal .items {
+    display: flex;
+}
+
+body .menuprincipal .menuitems > img {
+    display: none;
+}
+
+body .menuprincipal .menuitems .items p {
+    padding: 8px 25px;
+    color: #214FA0;
+}
+
+body .menuitems .menuham {
+    display: none;
+}
+
+body .Section1 .Imagen {
+    height: 976px;
+    width: 1920px;
+}
+
+body .Section1 .Imagen img {
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    vertical-align: top;
+    width: 100%;
+}
+
+body .Titulo {
+    position: absolute;
+    width: 1920px;
+    height: 800px;
+    left: 0px;
+    top: 1262px;
+    background: #E6E6FF;
+}
+
+body .Titulo .sobremi h1 {
+    position: absolute;
+    width: 1920px;
+    top: 100px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 113px;
+    text-align: center; 
+    color: #95B0DF;
+}
+
+body .Titulo .sub h2 {
+    position: absolute;
+    width: 1578px;  
+    height: 189px;
+    left: 220px;
+    top: 300px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    line-height: 63px;
+    text-align: center;
+    color: #343434;
+}
+
+body .Info .habilidades {
+    position: absolute;
+    left: 250px;
+    width: 547px;
+    height: 113px;
+    top: 2373px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 113px;
+    text-align: center;
+    color: #95B0DF;
+}
+
+body .Info .programas {
+    position: absolute;
+    left: 250px;
+    width: 547px;
+    height: 113px;
+    top: 3103px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 113px;
+    text-align: center;
+    color: #95B0DF;
+}
+
+body .Info .contacto {
+    position: absolute;
+    left: 250px;
+    width: 547px;
+    height: 113px;
+    top: 3669px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 113px;
+    text-align: center;
+    color: #95B0DF;
+}
+
+body .Info .estudios {
+    position: absolute;
+    left: 250px;
+    width: 547px;
+    height: 113px;
+    top: 4146px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 113px;
+    text-align: center;
+    color: #95B0DF;
+}
+
+body .Infoderecha .info1 {
+    position: absolute;
+    width: 250px;
+    height: 504px;
+    left: 1200px;
+    top: 2373px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    color: #1F1F1F;
+}
+
+body .Infoderecha .info2 {
+    position: absolute;
+    width: 250px;
+    height: 504px;
+    left: 1200px;
+    top: 3060px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    color: #1F1F1F;
+}
+
+body .Infoderecha .info3 {
+    position: absolute;
+    width: 250px;
+    height: 504px;
+    left: 1200px;
+    top: 3530px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    color: #1F1F1F;
+}
+
+body .Infoderecha .info4 {
+    position: absolute;
+    width: 350px;
+    height: 504px;
+    left: 1200px;
+    top: 4000px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    color: #1F1F1F;
+}
+
+body .barra {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 165px;
+    position: absolute;
+    width: 1920px;
+    height: 218px;
+    left: 0px;
+    top:4500px;
+    background: #E6E5FF;
+}
+
+body .barra .icono1 {
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 59px;
+    left:700px;
+}
+
+body .barra .icono2 {
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 59px;
+    left:920px;
+}
+
+body .barra .icono3 {
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 59px;
+    left:1120px;
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 1366px) {
+    body .menuprincipal {
+        padding: 21px 56px;
+        width: 920px;
+    }   
+
+    body .menuprincipal .Logo h1 {
+        display: none;
+    }
+
+    body .menuitems .menuham {
+        display: none;
+    }
+    body .Section1 .Imagen {
+        height: 976px;
+        width: 920px;
+    }
+    body .Section1 .Imagen img {
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+        vertical-align: top;
+    }
+
+    body .Titulo {
+        position: absolute;
+        width: 920px;
+        height: 800px;
+        left: 0px;
+        top: 1262px;
+        background: #E6E6FF;
+    }
+    
+    body .Titulo .sobremi h1 {
+        position: absolute;
+        width: 890px;
+        top: 100px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 90px;
+        line-height: 113px;
+        text-align: center; 
+        color: #95B0DF;
+    }
+    
+    body .Titulo .sub h2 {
+        position: absolute;
+        width: 800px;  
+        height: 189px;
+        left: 60px;
+        top: 300px;
+        font-family: 'Merriweather Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 27px;
+        font-family: 'Merriweather Sans';
+        font-style: normal;
+        line-height: 63px;
+        text-align: center;
+        color: #343434;
+    }
+    
+    body .Info .habilidades {
+        position: absolute;
+        left: 120px;
+        width: 50px;
+        height: 113px;
+        top: 2373px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 113px;
+        text-align: center;
+        color: #95B0DF;
+    }
+    
+    body .Info .programas {
+        position: absolute;
+        left: 120px;
+        width: 50px;
+        height: 113px;
+        top: 3103px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 113px;
+        text-align: center;
+        color: #95B0DF;
+    }
+    
+    body .Info .contacto {
+        position: absolute;
+        left: 80px;
+        width: 470px;
+        height: 113px;
+        top: 3669px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 113px;
+        text-align: center;
+        color: #95B0DF;
+    }
+    
+    body .Info .estudios {
+        position: absolute;
+        left: 60px;
+        width: 500px;
+        height: 113px;
+        top: 4146px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 113px;
+        text-align: center;
+        color: #95B0DF;
+    }
+    
+    body .Infoderecha .info1 {
+        position: absolute;
+        width: 200px;
+        height: 504px;
+        left: 600px;
+        top: 2373px;
+        font-family: 'Merriweather Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 90px;
+        display: flex;
+        align-items: center;
+        color: #1F1F1F;
+    }
+    
+    body .Infoderecha .info2 {
+        position: absolute;
+        width: 20px;
+        height: 504px;
+        left: 600px;
+        top: 3060px;
+        font-family: 'Merriweather Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 90px;
+        display: flex;
+        align-items: center;
+        color: #1F1F1F;
+    }
+    
+    body .Infoderecha .info3 {
+        position: absolute;
+        width: 150px;
+        height: 504px;
+        left: 600px;
+        top: 3530px;
+        font-family: 'Merriweather Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 90px;
+        display: flex;
+        align-items: center;
+        color: #1F1F1F;
+    }
+    
+    body .Infoderecha .info4 {
+        position: absolute;
+        width: 150px;
+        height: 504px;
+        left: 600px;
+        top: 4000px;
+        font-family: 'Merriweather Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 90px;
+        display: flex;
+        align-items: center;
+        color: #1F1F1F;
+    }
+
+    body .barra {
+        position: absolute;
+        width: 920px;
+        height: 218px;
+        left: 0px;
+        top: 4800px;
+    }
+
+    body .barra .icono1 {
+        display: flex;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 59px;
+        left:250px;
+    }
+    
+    body .barra .icono2 {
+        display: flex;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 59px;
+        left: 450px;
+    }
+    
+    body .barra .icono3 {
+        display: flex;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 59px;
+        left:650px;
+    }
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 831px) {
+    body .menuprincipal {
+        padding: 21px 56px;
+        width: 850px;
+    }
+
+    body .menuprincipal .Logo h1 {
+        display: none;
+    }   
+
+    body .menuprincipal .menuitems .items {
+        display: none;  
+    }
+
+    body .menuitems .menuham {
+        display: unset;
+        color: #214FA0;
+    }
+    body .Section1 .Imagen {
+        height: 976px;
+        width: 850px;
+    }
+
+    body .Section1 .Imagen img {
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+        vertical-align: top;
+        width: 850px;
+    }
+
+    body .Titulo {
+        position: absolute;
+        width: 850px;
+        height: 800px;
+        left: 0px;
+        top: 1262px;
+        background: #E6E6FF;
+    }
+    
+    body .Titulo .sobremi h1 {
+        position: absolute;
+        width: 820px;
+        top: 100px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 90px;
+        line-height: 113px;
+        text-align: center; 
+        color: #95B0DF;
+    }
+    
+    body .Titulo .sub h2 {
+        position: absolute;
+        width: 440px;  
+        height: 189px;
+        left: 200px;
+        top: 300px;
+        font-family: 'Merriweather Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 27px;
+        font-family: 'Merriweather Sans';
+        font-style: normal;
+        line-height: 63px;
+        text-align: center;
+        color: #343434;
+    }
+    
+    body .Info .habilidades {
+        position: absolute;
+        left: 120px;
+        width: 50px;
+        height: 113px;
+        top: 2373px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 113px;
+        text-align: center;
+        color: #95B0DF;
+    }
+    
+    body .Info .programas {
+        position: absolute;
+        left: 120px;
+        width: 50px;
+        height: 113px;
+        top: 3103px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 113px;
+        text-align: center;
+        color: #95B0DF;
+    }
+    
+    body .Info .contacto {
+        position: absolute;
+        left: 80px;
+        width: 470px;
+        height: 113px;
+        top: 3669px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 113px;
+        text-align: center;
+        color: #95B0DF;
+    }
+    
+    body .Info .estudios {
+        position: absolute;
+        left: 60px;
+        width: 500px;
+        height: 113px;
+        top: 4146px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 113px;
+        text-align: center;
+        color: #95B0DF;
+    }
+    
+    body .Infoderecha .info1 {
+        position: absolute;
+        width: 200px;
+        height: 504px;
+        left: 600px;
+        top: 2373px;
+        font-family: 'Merriweather Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 90px;
+        display: flex;
+        align-items: center;
+        color: #1F1F1F;
+    }
+    
+    body .Infoderecha .info2 {
+        position: absolute;
+        width: 250px;
+        height: 504px;
+        left: 600px;
+        top: 3060px;
+        font-family: 'Merriweather Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 90px;
+        display: flex;
+        align-items: center;
+        color: #1F1F1F;
+    }
+    
+    body .Infoderecha .info3 {
+        position: absolute;
+        width: 250px;
+        height: 504px;
+        left: 600px;
+        top: 3530px;
+        font-family: 'Merriweather Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 90px;
+        display: flex;
+        align-items: center;
+        color: #1F1F1F;
+    }
+    
+    body .Infoderecha .info4 {
+        position: absolute;
+        width: 200px;
+        height: 504px;
+        left: 600px;
+        top: 4000px;
+        font-family: 'Merriweather Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 90px;
+        display: flex;
+        align-items: center;
+        color: #1F1F1F;
+    }
+
+    body .barra {
+        position: absolute;
+        width: 850px;
+        height: 218px;
+        left: 0px;
+        top: 4800px;
+    }
+
+    body .barra .icono1 {
+        display: flex;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 59px;
+        left:150px;
+    }
+    
+    body .barra .icono2 {
+        display: flex;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 59px;
+        left: 350px;
+    }
+    
+    body .barra .icono3 {
+        display: flex;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 59px;
+        left:550px;
+    }
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 361px) {
+    body .menuprincipal {
+        padding: 21px 56px;
+        width: 500px;
+    }
+
+    body .menuprincipal .Logo p{
+        display: none;   
+    }   
+
+    body .menuprincipal .Logo h1{
+        display: unset;
+        color: #214FA0;
+    }   
+
+    body .menuprincipal .menuitems .menuham {
+        color: #214FA0;
+    }
+
+    body .Section1 .Imagen {
+        height: 360px;
+        width: 500px;
+    }
+
+    body .Section1 .Imagen img {
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+        vertical-align: top;
+        width: 500px;
+    }
+
+    body .Titulo {
+        position: absolute;
+        width: 500px;
+        height: 1150px;
+        left: 0px;
+        top: 550px;
+        background: #E6E6FF;
+    }
+    
+    body .Titulo .sobremi h1 {
+        position: absolute;
+        width: 360px;
+        left: 50px;
+        top: 70px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 113px;
+        text-align: center; 
+        color: #95B0DF;
+    }
+    
+    body .Titulo .sub h2 {
+        position: absolute;
+        width: 230px;  
+        height: 189px;
+        left: 120px;
+        top: 260px;
+        font-family: 'Merriweather Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 25px;
+        font-family: 'Merriweather Sans';
+        font-style: normal;
+        line-height: 63px;
+        text-align: center;
+        color: #343434;
+    }
+    
+    body .Info .habilidades {
+        position: absolute;
+        width: 300px;
+        height: 152px;
+        left: 90px;
+        top: 1800px;
+        font-size: 15px;
+
+    }
+    
+    body .Info .programas {
+        position: absolute;
+        width: 300px;
+        height: 152px;
+        left: 90px;
+        top: 2300px;
+        font-size: 20px;
+    }
+    
+    body .Info .contacto {
+        position: absolute;
+        width: 300px;
+        height: 152px;
+        left: 100px;
+        top: 3000px;
+        font-size: 28px;
+    }
+    
+    body .Info .estudios {
+        position: absolute;
+        width: 300px;
+        height: 152px;
+        left: 90px;
+        top: 3600px;
+        font-size: 30px;
+    }
+    
+    body .Infoderecha .info1 {
+        position: absolute;
+        width: 100px;
+        height: 647px;
+        left: 190px;
+        top: 1770px;
+        font-family: 'Merriweather Sans';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 10px;
+        line-height: 45px;        
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    
+    body .Infoderecha .info2 {
+        position: absolute;
+        width: 100px;
+        height: 647px;
+        left: 190px;
+        top: 2270px;
+        font-family: 'Merriweather Sans';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 13px;
+        line-height: 45px;        
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    
+    body .Infoderecha .info3 {
+        position: absolute;
+        width: 100px;
+        height: 647px;
+        left: 160px;
+        top: 2850px;
+        font-family: 'Merriweather Sans';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 15px;
+        line-height: 45px;        
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    
+    body .Infoderecha .info4 {
+        position: absolute;
+        width: 100px;
+        height: 647px;
+        left: 175px;
+        top: 3550px;
+        font-family: 'Merriweather Sans';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 20px;
+        line-height: 45px;        
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    body .barra {
+        position: absolute;
+        width: 490px;
+        height: 118px;
+        left: 10px;
+        top: 4200px;
+    }
+
+    body .barra .icono1 {
+        display: flex;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top: 35px;
+        left: 120px;
+    }
+    
+    body .barra .icono2 {
+        display: flex;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top: 35px;
+        left: 210px;
+    }
+    
+    body .barra .icono3 {
+        display: flex;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top: 35px;
+        left: 300px;
+    }
+}

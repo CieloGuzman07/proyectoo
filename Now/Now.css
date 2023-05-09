@@ -1,0 +1,644 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body .menuprincipal {
+    background: #E6E5FF;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 144px;
+    width:100%;
+}
+
+body .menuprincipal .Logo {
+    padding: 16px 32px;
+    color: #214FA0;
+
+}
+
+body .menuprincipal .Logo h1 {
+    display: none;
+}
+
+body .menuprincipal .menuitems {
+    align-items: center;
+    display: flex;
+    border: 0;
+    border-radius: 5px;
+    color: #214FA0;
+    padding: 16px 32px;
+}
+
+body .menuprincipal .items {
+    display: flex;
+}
+
+body .menuprincipal .menuitems > img {
+    display: none;
+}
+
+body .menuprincipal .menuitems .items p {
+    padding: 8px 25px;
+    color: #214FA0;
+}
+
+body .menuitems .menuham {
+    display: none;
+}
+
+body .Seccion1 .Texto {
+    position: absolute;
+    width: 1250px;
+    height: 505px;
+    left: 130px;
+    top: 255px;
+    font-family: 'Merriweather Sans';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 101px;
+    color: #343434;
+}
+
+body .Seccion1 .Texto {
+    position: absolute;
+    width: 1250px;
+    height: 505px;
+    left: 130px;
+    top: 255px;
+    font-family: 'Merriweather Sans';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 101px;
+    color: #343434;
+}
+
+body .Seccion1 .Imagen {
+    position: absolute;
+    width: 100px;
+    height: 276px;
+    left: 1000px;
+    top: 699px; 
+}
+
+body .Seccion2 {
+    position: absolute;
+    width: 1519px;
+    height: 300px;
+    left: 0px;
+    top: 1500px;
+    background: #E6E6FF;
+}
+
+body .Seccion2 .texto {
+    position: absolute;
+    width: 900px;
+    height: 100px;
+    left: 600px;
+    top: 100px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 113px;
+    text-align: center;
+    color: #95B0DF;
+}
+
+body .Titulo .Crecer {
+    position: absolute;
+    width: 547px;
+    height: 200px;
+    left: 177px;
+    top: 1900px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 113px;
+    text-align: center;
+    color: #95B0DF;
+}
+
+body .Titulo .Proyectos {
+    position: absolute;
+    width: 547px;
+    height: 200px;
+    left: 850px;
+    top: 2422px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 113px;
+    text-align: center;
+    color: #95B0DF;
+}
+
+body .Informacion .info1 {
+    position: absolute;
+    width: 640px;
+    height: 300px;
+    left: 764px;
+    top: 1920px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 30px;
+    color: #343434;
+}
+
+body .Informacion .info2 {
+    position: absolute;
+    width: 640px;
+    height: 300px;
+    left: 177px;
+    top: 2450px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #343434;
+    text-align: end;
+}
+
+body .barra {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 165px;
+    position: absolute;
+    width: 1519px;
+    height: 218px;
+    left: 0px;
+    top:3000px;
+    background: #E6E5FF;
+}
+
+body .barra .icono1 {
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 59px;
+    left:500px;
+}
+
+body .barra .icono2 {
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 59px;
+    left:700px;
+}
+
+body .barra .icono3 {
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 59px;
+    left:900px;
+}
+
+
+
+
+
+
+/* Media queries */
+
+@media only screen and (max-width: 1367px) {
+    body .menuprincipal {
+        padding: 21px 56px;
+        width: 1525px;
+    }   
+
+    body .menuprincipal .Logo h1 {
+        display: none;
+    }
+
+    body .menuitems .menuham {
+        display: none;
+    }
+    
+    body .Section1 .Imagen img {
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+        vertical-align: top;
+        width: 1300px;
+    }
+
+    body .Section1 .Titulo-subtitulo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:right;
+        left: 50%;  
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 1000px;
+        height: 113px;
+    }
+
+    body .Seccion1 .Texto {
+        position: absolute;
+        width: 600px;
+        height: 505px;
+        left: 130px;
+        top: 255px;
+        font-family: 'Merriweather Sans';
+        font-style: italic;
+        font-weight: 300;
+        font-size: 60px;
+        line-height: 101px;
+        color: #343434;
+    }
+    
+    body .Seccion1 .Imagen {
+        position: absolute;
+        width: 100px;
+        height: 276px;
+        left: 1000px;
+        top: 699px; 
+    }
+    
+    
+
+    body .barra {
+        position: absolute;
+        width: 1525px;
+        height: 218px;
+        left: 0px;
+        top: 2700px;
+    }
+
+    body .barra .icono1 {
+        display: flex;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 59px;
+        left:400px;
+    }
+    
+    body .barra .icono2 {
+        display: flex;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 59px;
+        left: 730px;
+    }
+    
+    body .barra .icono3 {
+        display: flex;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 59px;
+        left:1050px;
+    }
+
+
+/* Media queries */
+
+@media only screen and (max-width: 831px) {
+    body .menuprincipal {
+        padding: 21px 56px;
+        width: 1520px;
+    }
+
+    body .menuprincipal .Logo h1{
+        display: none;
+    }   
+
+    body .menuprincipal .menuitems .items {
+        display: none;
+    }
+
+    body .menuitems .menuham {
+        display: unset;
+        color: #214FA0;
+    }
+
+    
+    body .Seccion1 .Texto {
+        position: absolute;
+        width: 500px;
+        height: 505px;
+        left: 500px;
+        top: 255px;
+        text-align: center;
+        font-family: 'Merriweather Sans';
+        font-style: italic;
+        font-weight: 300;
+        font-size: 60px;
+        line-height: 101px;
+        color: #343434;
+    }
+    
+    body .Seccion1 .Imagen {
+        position: absolute;
+        width: 100px;
+        height: 276px;
+        left: 500px;
+        top: 1550px; 
+    }
+    
+
+    body .Seccion2 {
+        position: absolute;
+        width: 1519px;
+        height: 300px;
+        left: 0px;
+        top: 2200px;
+        background: #E6E6FF;
+    }
+    
+    body .Seccion2 .texto {
+        position: absolute;
+        width: 900px;
+        height: 100px;
+        left: 600px;
+        top: 100px;
+        font-family: 'Merriweather Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 70px;
+        line-height: 113px;
+        text-align: center;
+        color: #95B0DF;
+    }
+    
+    body .Titulo .Crecer {
+        position: absolute;
+        width: 547px;
+        height: 200px;
+        left: 177px;
+        top: 2600px;
+        font-family: 'Merriweather Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 113px;
+        text-align: center;
+        color: #95B0DF;
+    }
+    
+    body .Titulo .Proyectos {
+        position: absolute;
+        width: 547px;
+        height: 200px;
+        left: 850px;
+        top: 3000px;
+        font-family: 'Merriweather Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 113px;
+        text-align: center;
+        color: #95B0DF;
+    }
+    
+    body .Informacion .info1 {
+        position: absolute;
+        width: 560px;
+        height: 300px;
+        left: 764px;
+        top: 2630px;
+        font-family: 'Merriweather Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 30px;
+        color: #343434;
+    }
+    
+    body .Informacion .info2 {
+        position: absolute;
+        width: 540px;
+        height: 300px;
+        left: 177px;
+        top: 3010px;
+        font-family: 'Merriweather Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 30px;
+        color: #343434;
+        text-align: end;
+    }
+
+    body .barra {
+        position: absolute;
+        width: 1520px;
+        height: 218px;
+        left: 0px;
+        top: 3500px;
+    }
+
+    body .barra .icono1 {
+        display: flex;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 59px;
+        left:500px;
+    }
+    
+    body .barra .icono2 {
+        display: flex;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 59px;
+        left: 700px;
+    }
+    
+    body .barra .icono3 {
+        display: flex;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 59px;
+        left:900px;
+    }
+
+}
+
+
+/* Media queries */
+
+@media only screen and (max-width: 361px) {
+    body .menuprincipal {
+        padding: 21px 56px;
+        width: 1450px;
+    }
+
+    body .menuprincipal .Logo p{
+        display: none;   
+    }   
+
+    body .menuprincipal .Logo h1{
+        display: unset;
+        color: #214FA0;
+    }   
+
+    body .menuprincipal .menuitems .menuham {
+        color: #214FA0;
+    }
+    
+    body .Seccion1 .Texto {
+        position: absolute;
+        width: 300px;
+        height: 505px;
+        left: 600px;
+        top: 255px;
+        text-align: center;
+        font-family: 'Merriweather Sans';
+        font-style: italic;
+        font-weight: 300;
+        font-size: 35px;
+        line-height: 101px;
+        color: #343434;
+    }
+    
+    body .Seccion1 .Imagen {
+        position: absolute;
+        width: 100px;
+        height: 276px;
+        left: 550px;
+        top: 1550px; 
+    }
+    
+
+    body .Seccion2 {
+        position: absolute;
+        width: 1450px;
+        height: 300px;
+        left: 0px;
+        top: 2200px;
+        background: #E6E6FF;
+    }
+    
+    body .Seccion2 .texto {
+        position: absolute;
+        width: 500px;
+        height: 100px;
+        left: 800px;
+        top: 40px;
+        font-family: 'Merriweather Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 70px;
+        line-height: 113px;
+        text-align: center;
+        color: #95B0DF;
+    }
+    
+    body .Titulo .Crecer {
+        position: absolute;
+        width: 547px;
+        height: 200px;
+        left: 177px;
+        top: 2600px;
+        font-family: 'Merriweather Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 113px;
+        text-align: center;
+        color: #95B0DF;
+    }
+    
+    body .Titulo .Proyectos {
+        position: absolute;
+        width: 547px;
+        height: 200px;
+        left: 850px;
+        top: 3500px;
+        font-family: 'Merriweather Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 113px;
+        text-align: center;
+        color: #95B0DF;
+    }
+    
+    body .Informacion .info1 {
+        position: absolute;
+        width: 230px;
+        height: 300px;
+        left: 764px;
+        top: 2630px;
+        font-family: 'Merriweather Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 30px;
+        color: #343434;
+    }
+    
+    body .Informacion .info2 {
+        position: absolute;
+        width: 210px;
+        height: 300px;
+        left: 177px;
+        top: 3550px;
+        font-family: 'Merriweather Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 30px;
+        color: #343434;
+        text-align: end;
+    }
+
+    body .barra {
+        position: absolute;
+        width: 1450px;
+        height: 118px;
+        left: 10px;
+        top: 4500px;
+    }
+
+    body .barra .icono1 {
+        display: flex;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top: 35px;
+        left: 550px;
+    }
+    
+    body .barra .icono2 {
+        display: flex;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top: 35px;
+        left: 700px;
+    }
+    
+    body .barra .icono3 {
+        display: flex;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top: 35px;
+        left: 850px;
+    }
+}
+}
